@@ -21,6 +21,7 @@ namespace Snai.ApiServiceA.Controllers
         [HttpGet]
         public string Get()
         {
+            //ceshi 
             return HttpContext.Request.Host.Port + " " + Configuration["AppName"] + " " + DateTime.Now.ToString();
         }
 
